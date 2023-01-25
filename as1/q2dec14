@@ -1,0 +1,6 @@
+a=input("Enter the number:")
+
+dic={"1":"ONE","2":"TWO","3":"THREE"}
+for i in dic:
+    if i==a:
+        print(dic[i])
